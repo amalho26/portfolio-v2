@@ -1,14 +1,17 @@
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useContext } from 'react';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
+import Scroll from 'react-scroll';
 import Typed from 'react-typed';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import {headerData} from '../../data/headerData'
 import { socialsData } from '../../data/socialsData';
 import './Landing.css';
-
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
+
+const ScrollLink = Scroll.Link;
+
+
 
 export default function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -108,8 +111,8 @@ export default function Landing() {
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
-                            <NavLink
-                                to='/#contacts'
+                            <ScrollLink
+                                to='contacts'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -117,7 +120,7 @@ export default function Landing() {
                                 <Button className={classes.contactBtn}>
                                     Contact
                                 </Button>
-                            </NavLink>
+                            </ScrollLink>
                         </div>
                     </div>
                 </div>
