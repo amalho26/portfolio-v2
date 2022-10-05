@@ -1,4 +1,4 @@
-import image from '../assets/pictures/profile.jpg'
+import image from '../assets/pictures/main.jpg'
 
 export const headerData = {
     name: 'Aikam Malhotra',
