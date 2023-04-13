@@ -4,7 +4,7 @@ export const experienceData = [
         company: 'Equestrian Show Manager Inc.',
         jobtitle: 'Full-Stack Application Developer',
         startYear: 'May 2021',
-        endYear: 'Present'
+        endYear: 'April 2023'
     },
     {
         id: 2,

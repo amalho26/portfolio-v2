@@ -9,6 +9,14 @@ import pic1 from '../assets/svg/projects/one.svg'
 export const projectsData = [
     {
         id: 1,
+        projectName: 'eduHub - Student Social Media Application',
+        projectDesc: 'This project is a social media platform for university students.',
+        tags: ['React Native', 'AWS', 'Expo', 'GraphQL'],
+        code: 'https://github.com/amalho26/eduHub.git',
+        image: pic5
+    },
+    {
+        id: 2,
         projectName: 'Sorting Algorithms Mobile Application',
         projectDesc: 'This project is a mobile application intended to help users visualize how different sorting algorithms work.',
         tags: ['React', 'Expo', 'Node.JS'],
@@ -16,7 +24,7 @@ export const projectsData = [
         image: pic3
     },
     {
-        id: 2,
+        id: 3,
         projectName: 'Database Management System Web Interface',
         projectDesc: 'This project is a web interface showcasing various complex Stored Procedures, Triggers, Views and Transactions.',
         tags: ['React', 'Express', 'MySQL'],
@@ -24,7 +32,7 @@ export const projectsData = [
         image: pic5
     },
     {
-        id: 3,
+        id: 4,
         projectName: 'Multi-User Multi-Transaction Chat-Box',
         projectDesc: 'This project utilizes thread synchronization and parallel processing to create a chat box.',
         tags: ['JavaFX', 'AWS'],
@@ -32,7 +40,7 @@ export const projectsData = [
         image: pic4
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Personal Portfolio V2',
         projectDesc: 'This project involves various React Libraries to create a personal portfolio.',
         tags: ['React', 'Materials-UI', 'Netlify'],
@@ -40,7 +48,7 @@ export const projectsData = [
         image: pic1
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'Personal Portfolio V1',
         projectDesc: 'This project involves various React Libraries to create a personal portfolio.',
         tags: ['React', 'Netlify'],
@@ -48,7 +56,7 @@ export const projectsData = [
         image: pic3
     },
     {
-        id: 6,
+        id: 7,
         projectName: 'Unity Game',
         projectDesc: 'This project is a 3D multi-layered game built using Unity.',
         tags: ['Unity Engine', 'C#'],
@@ -56,7 +64,7 @@ export const projectsData = [
         image: pic2
     },
     {
-        id: 7,
+        id: 8,
         projectName: 'Connect-Four',
         projectDesc: 'A simple Connect-Four game',
         tags: ['React'],
