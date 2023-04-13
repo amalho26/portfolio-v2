@@ -1,4 +1,4 @@
 export const contactsData = {
-    email: 'amalho26@uwo.ca',
+    email: 'aikamdeep@hotmail.com',
     address: 'London Ontario',
 }
