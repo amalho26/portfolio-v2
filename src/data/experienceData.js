@@ -2,13 +2,13 @@ export const experienceData = [
     {
         id: 1,
         company: 'Equestrian Show Manager Inc.',
-        jobtitle: 'Full-Stack Application Developer',
+        jobtitle: 'Full Stack Developer',
         startYear: 'May 2021',
         endYear: 'April 2023'
     },
     {
         id: 2,
-        company: 'Dillon Consulting Limited',
+        company: 'Dillon Consulting Ltd.',
         jobtitle: 'Software Engineer Intern',
         startYear: 'May 2022',
         endYear: 'Aug 2022'

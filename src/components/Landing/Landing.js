@@ -99,8 +99,8 @@ export default function Landing() {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
+                                'Software Engineer',
                                 'Full Stack Developer',
-                                '4th Year Software Engineering Student',
                                 'Entrepreneurial Minded']}
                             typeSpeed={40}
                             backSpeed={50}
@@ -108,7 +108,7 @@ export default function Landing() {
                             style={{ color: theme.primary, fontSize: '20px' }}
                             loop
                         />
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
                             <ScrollLink

@@ -4,7 +4,7 @@ export const educationData = [
         institution: 'Universty of Western Ontario',
         course: 'Bachelor of Engineering Science - Software Engineering',
         startYear: '2019',
-        endYear: 'Expected: 2023'
+        endYear: '2023'
     },
     {
         id: 2,
